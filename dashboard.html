@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="dashboard.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="side-bar">
+       <div class="menu-item" id="menu">
+         <div class="menu-content"><img src="res/ic/s-nav/1.png" alt="1"><span class="extended-menu">Module 1</span></div>
+         <div class="menu-content"><img src="res/ic/s-nav/2.png" alt="2"><span class="extended-menu">Module 2</span></div>
+        <div class="menu-content"><img src="res/ic/s-nav/3.png" alt="3"><span class="extended-menu">Module 3</span></div>
+        <div class="menu-content"><img src="res/ic/s-nav/4.png" alt="4"><span  class="extended-menu">Module 4</span></div>
+        <div class="menu-content"><img src="res/ic/s-nav/5.png" alt="5"><span  class="extended-menu">Module 5</span></div>
+         <div class="menu-content"><img src="res/ic/s-nav/6.png" alt="6"><span class="extended-menu">Module 6</span></div>
+        <div class="menu-content"><img src="res/ic/s-nav/7.png" alt="7" ><span class="extended-menu">Module 7</span></div>
+       </div>
+       <div class="slider" onClick="toggleMenu()"><img src="res/ic/cross mark.png" alt="cross" class="extended-menu"  > 
+        <img class="extended-menu" style="display: block;" src="res/ic/next.png" alt="cross">
+    </div>
+    </div>
+        <div class="header">
+            <div>
+                <span style="float:left"><img src="./res/logo-profile/logo.png" alt="logo"></span>
+                <span class ="user-img"><img class="circle-img" src="./res/logo-profile/user-profile-picture.png" alt="profile"><span style="color:#0259D0;">Lara Madrigal <br/>Logout</span></span>
+                <span class="chat-bubble"><img src="res/ic/chat-bubble.png" alt="chat"><span style="padding-left: 5px;">Hi Lara Madrigal</span></span>
+            </div>
+        </div>
+        
+        <div class="content">
+           <h2> Good afternoon, Lara!</h2>
+           <div id="blue-slip">
+              <img class="circle-img" src="./res/logo-profile/provider-profile-picture.png" alt="profile">
+               <span class="slip-text">Nulla urna nulla, lacinia invehicula quis, mattis, sollicitudin ipsum. -<span style="font-weight:bold">Dashonte Clarke</span></span>
+           </div>
+        </div>
+        <div class="dashboard">
+           <H2> DASHBOARD </H2>
+           <div class="medi-slip">
+               <img src="./res/ic/s-nav/2.png" alt="medi">
+               <span>Nulla cursus luctus pellentesque.</span>
+               <button>Add Medication</button>
+            </div>
+            <div class="medi-slip">
+                <img src="./res/ic/s-nav/3.png" alt="medi">
+                <span>Nulla cursus luctus pellentesque.</span>
+                <button>Keep Going</button>
+             </div>
+             <div class="medi-slip">
+                <img src="./res/ic/s-nav/4.png" alt="medi">
+                <span>Nulla cursus luctus pellentesque.</span>
+                <span style="color:green; margin-left: 250px;">done</span>
+             </div>
+        </div>
+        <div class="vitals">
+            <h2>VITALS</h2>
+            <div class="vital-slip">
+                <p style="color:#808080;">WEIGHT</p>
+                <p><span style="color:black; font-size:50px;">68</span><span style="color:#808080">kgs</span><p>
+            </div>
+            <div class="vital-slip">
+                <p style="color:#808080;">HEIGHT</p>
+                <p><span style="color:black; font-size:50px;">185</span><span style="color:#808080">cms</span><p>
+            </div>
+            <p style="color:#0259D0">SHOW ALL <img src="./res/ic/next.png" alt="arrow-left"></p>
+        </div>
+        <div class="related-articles">
+            <h2>RELATED ARTICLES</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img class="gallery-image" src="res/articles-img/1.png" alt="galler1">
+                    <p>Nulam eget mi eget erat posure imperdiet eget at nunc.</p>
+                    <p style="color:#0259D0">READ ARTICLE</p>
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="res/articles-img/2.png" alt="galler1">
+                    <p>Nulam eget mi eget erat posure imperdiet eget at nunc.</p>
+                    <p style="color:#0259D0">READ ARTICLE</p>
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="res/articles-img/3.png" alt="galler1">
+                    <p>Nulam eget mi eget erat posure imperdiet eget at nunc.</p>
+                    <p style="color:#0259D0">READ ARTICLE</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img class="gallery-image" src="res/articles-img/4.png" alt="galler1">
+                    <p>Nulam eget mi eget erat posure imperdiet eget at nunc.</p>
+                    <p style="color:#0259D0">READ ARTICLE</p>
+                </div>
+                <div style="display: flex; align-items: center;" class="gallery-item">
+                    <p style="color:#0259D0 ;">SHOW ALL <img src="res/ic/next.png"></p>
+                </div>
+                
+            </div>
+        </div>
+</div>
+
+</body>
+
+</html>
