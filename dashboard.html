@@ -16,8 +16,9 @@
          <div class="menu-content"><img src="res/ic/s-nav/6.png" alt="6"><span class="extended-menu">Module 6</span></div>
         <div class="menu-content"><img src="res/ic/s-nav/7.png" alt="7" ><span class="extended-menu">Module 7</span></div>
        </div>
-       <div class="slider" onClick="toggleMenu()"><img src="res/ic/cross mark.png" alt="cross" class="extended-menu"  > 
-        <img class="extended-menu" style="display: block;" src="res/ic/next.png" alt="cross">
+       <div class="slider" onClick="toggleMenu()" style="position: relative; margin-top:12px;">
+        <img src="res/ic/cross mark.png" alt="cross" class="extended-menu"  style="position: absolute"> 
+        <img class="extended-menu" style="display: block; position:absolute" src="res/ic/next.png" alt="cross">
     </div>
     </div>
         <div class="header">
@@ -40,12 +41,12 @@
            <div class="medi-slip">
                <img src="./res/ic/s-nav/2.png" alt="medi">
                <span>Nulla cursus luctus pellentesque.</span>
-               <button>Add Medication</button>
+               <button onClick="openPopup('form.html')" style="cursor:pointer; margin-left : 250px;">Add Medication</button>
             </div>
             <div class="medi-slip">
                 <img src="./res/ic/s-nav/3.png" alt="medi">
                 <span>Nulla cursus luctus pellentesque.</span>
-                <button>Keep Going</button>
+                <button style="margin-left: 250px; cursor:pointer" onClick="keepGoing()">Keep Going</button>
              </div>
              <div class="medi-slip">
                 <img src="./res/ic/s-nav/4.png" alt="medi">

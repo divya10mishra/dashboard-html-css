@@ -8,4 +8,17 @@
             }
           });
       }
+
+      function openPopup(MyPath){
+          console.log("popup")
+          window.open(MyPath,"","toolbar=no,status=no,menubar=no,location=center,scrollbars=no,resizable=no,height=500,width=657")
+      }
+
+      function AddMedication(){
+          alert("Medication Updated ")
+      }
+
+      function keepGoing(){
+        alert("Keep Going 👍")
+      }
    

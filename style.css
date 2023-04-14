@@ -10,8 +10,8 @@
     display: flex;
     grid-area: side;
     background-color: #FFFFFF;
-    margin-left:50px;
-    padding-top: 120px;
+    
+    padding-top: 50px;
     position: relative;
     border-right:1px solid #D0ECDA ;
 }
@@ -29,8 +29,7 @@
     height:25px;
     width: 25px;
     background-color: white;
-    margin-left: 100px;
-    position: absolute;
+    margin-left: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -96,6 +95,28 @@
     font-size: 20px;
     display: flex;
     align-items: center;
+   
+}
+.medi-slip-form{
+    background-color: white;
+    padding: 20px 80px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:1px 2px grey;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    position:relative;
+    left:20%;
+    margin-top:40px
+}
+.form-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px;
 }
 button{
     padding: 10px 24px;
@@ -103,7 +124,7 @@ button{
     border: 2px solid #0259D0;
     color:#0259D0 ;
     border-radius: 10px;
-    margin-left: 250px;
+    
 }
 .vitals{
     grid-area: vita;
